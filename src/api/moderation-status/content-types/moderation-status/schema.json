@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moderation_statuses",
+  "info": {
+    "singularName": "moderation-status",
+    "pluralName": "moderation-statuses",
+    "displayName": "Moderation Status",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "version": {
+      "type": "biginteger"
+    }
+  }
+}

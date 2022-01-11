@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_has_categories",
+  "info": {
+    "singularName": "content-has-category",
+    "pluralName": "content-has-categories",
+    "displayName": "Content Has Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentID": {
+      "type": "biginteger"
+    },
+    "categoryID": {
+      "type": "integer"
+    },
+    "version": {
+      "type": "biginteger"
+    }
+  }
+}

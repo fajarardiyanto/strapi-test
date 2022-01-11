@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_datas",
+  "info": {
+    "singularName": "content-data",
+    "pluralName": "content-datas",
+    "displayName": "Content Data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "contentID": {
+      "type": "biginteger"
+    },
+    "statusID": {
+      "type": "integer"
+    },
+    "dataURL": {
+      "type": "string",
+      "maxLength": 512
+    },
+    "moderationStatusID": {
+      "type": "integer"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "version": {
+      "type": "biginteger"
+    }
+  }
+}

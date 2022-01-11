@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_categories",
+  "info": {
+    "singularName": "content-category",
+    "pluralName": "content-categories",
+    "displayName": "Content Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "maxLength": 255,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "imageURL": {
+      "type": "string",
+      "maxLength": 512
+    },
+    "statusID": {
+      "type": "integer"
+    },
+    "version": {
+      "type": "biginteger"
+    }
+  }
+}
